@@ -4,7 +4,7 @@ function cToF(celsius) {
   const cTemp = celsius;
 
   // Calculate the equivalent Fahrenheit temperature
-  const cToFahr = (cTemp * 9) / 5 + 32;
+  const cToFahr = (celsius * 9) / 5 + 32;
 
   // Create a message string describing the conversion result
   const message = cTemp + "\xB0C is " + cToFahr + " \xB0F.";
